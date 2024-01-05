@@ -1,13 +1,14 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import Picker from 'emoji-picker-react';
 
 export default function About() {
   const { ref } = useSectionInView("About");
-
+ 
   return (
     <motion.section
       ref={ref}
@@ -19,30 +20,27 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        A passionate Javascript developer in love with the wonders of React Native, completed my B.Tech from{" "}
+        <span className="font-medium">SRM IST</span>, I'm a self learned developer who started falling in love with Google back then in college and later learnt a lot in the world of Competitive programming, Hackathons, Fullstack development and more. 
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        problem-solving aspect and the challenges I face daily, which helps me to keep engineering the product better&better. I <span className="underline">love</span> the
+        feeling of finally figuring out a solution to a problem and building architectures of high quality and simplify solutioning for my team as well. 'Yes, I m a team player geek'! My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React Native, Next.js, Node.js, MongoDB and React.js
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . I am also experienced with TypeScript and AWS cloud computing. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
+        <span className="font-medium">new challenge</span> as a software
         developer.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        playing sports like Badminton and football, play ukulele, and hiking around terrains. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">astronomy and it's link with natural physics history.</span>.
       </p>
     </motion.section>
   );
