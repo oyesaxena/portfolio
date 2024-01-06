@@ -35,28 +35,35 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "BTech from SRM",
-    location: "Chennai, India",
+    title: "BTech",
+    location: "SRM,Chennai",
     description:
       "I graduated with a dual degree after 4 years of ECE-major and CSE-minor. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
   {
-    title: "SDE-1",
-    location: "Orlando, FL",
+    title: "Fullstack Intern",
+    location: "Webknot Technologies",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked as a fullstack developer intern on MERN stack with AWS and handled 2 clients project.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jan,2021 - April,2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "SDE-1",
+    location: "Bajaj Finserv Health",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "My first fulltime role in software development where I started with my journey in Next.js and later React Native",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
+  },
+  {
+    title: "SDE-2",
+    location: "Bajaj Finserv Health",
+    description:
+      "Promoted to SDE 2 at Bajaj Health, leading a team of 4 in frontend and handling a squad's end to end tech crons. The squad focuses on health files management and smart reports, includes over 6 journeys in all.", icon: React.createElement(FaReact),
+    date: "2023 - present",
   },
 ] as const;
 
