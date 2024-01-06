@@ -37,7 +37,7 @@ export default function Contact() {
         <a className="underline" href="mailto:example@gmail.com">
           absa0545@gmail.com,
         </a>{" "}
-        oops email box not found. Would love to make something more and immensely prominent for your team though  {'\U+1F60A'}
+        oops email box not found. Would love to make something more and immensely prominent for your team though  {'\u00F7'}
       </p>
 
     </motion.section>

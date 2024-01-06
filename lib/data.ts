@@ -35,15 +35,15 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "BTech from SRM",
-    location: "Chennai, India",
+    title: "Graduated bootcamp",
+    location: "Miami, FL",
     description:
-      "I graduated with a dual degree after 4 years of ECE-major and CSE-minor. I immediately found a job as a front-end developer.",
+      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
+    date: "2019",
   },
   {
-    title: "SDE-1",
+    title: "Front-End Developer",
     location: "Orlando, FL",
     description:
       "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
@@ -62,32 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title:'ABHA',
-    description:"ABHA is a health id for any indian citizen made via mobile number or aadhar card, they can manage health documents, consultations, labs tests, consents, health locker and a lot more via this feature. In addition I also worked to extend this further to Smart reports in Bajaj Health",
-    tags:["React Native","Javacript","Node JS","Mongo DB","Azure","Reanimated animations"],
-    imageUrl: corpcommentImg,
-
-  }
-  ,
-  {
-    title: "VPurify",
+    title: "CorpComment",
     description:
-      "A Mweb app where users can select sanitation slot for their vehicles and select a service station or door service, sanitation workers can update status of assigned vehicle sanitation and same will be reflected on vehicle’s QR code.",
-    tags: ["React", "Next.js", "MongoDB", "Material UI", "Figma", "Node JS", "AWS"],
+      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "CrossFarm",
+    title: "rmtDev",
     description:
-      "CrossFarm is a web application which allows farmers to sell crops online to large scale vendors without government suppliers intervention. This had an OCR based image processing model on google colab to give price suggestions as per state and crop quality",
-    tags: ["React", "TypeScript", "Mongo", "Node JS", "Redux","Colab", "Image Processing","Heroku"],
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Frontend OCR for PDFs",
+    title: "Word Analytics",
     description:
-      "A custom model based google ML-KIT text recognition which was patched into a npm package and worked on device itself to give ocr and highlight targetted data on a health document, which can be later edited.",
-    tags: ["React Native", "Collab", "ML-KIT", "Flipper",],
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -98,16 +90,18 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "React Native",
-  "AWS",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
+  "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
+  "Apollo",
   "Express",
+  "PostgreSQL",
   "Python",
-  
+  "Django",
+  "Framer Motion",
 ] as const;
