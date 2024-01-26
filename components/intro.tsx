@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-            src='https://media.licdn.com/dms/image/D4D03AQHsy5NrTdHBoQ/profile-displayphoto-shrink_800_800/0/1697482416525?e=1711584000&v=beta&t=WHmGsmiYNtzimMzu_ZifSJTSFQv_5MJ0osGyvB9KUOc'
+              src='https://drive.google.com/file/d/1yyyqU8eBcmhNSo1L7edv6j7R-l0QlDaa/view?usp=sharing'
               alt="Abhishek portrait"
               width="192"
               height="192"
